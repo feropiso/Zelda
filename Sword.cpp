@@ -15,6 +15,10 @@ Sword::~Sword( )
 
 }
 
+void Sword::decrementador(){
+    strength = strength-2;    
+}
+
 void Sword::print( ) const
 {
     cout << "Strength: "   << strength << '\n';

@@ -6,8 +6,9 @@ class Sword
 public:
     Sword();
     ~Sword();
-
+    
     void print( ) const;
+    void decrementador( );
 
 private:
 
